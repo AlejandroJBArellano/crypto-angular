@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+input{
+    background-color: rgba(255, 0, 0, 0.575);
+    border: 0;
+    width: 90%;
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.575);
+    color: WHITE;
+    font-family: 'Slabo 27px', serif;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 10px;
+    &:focus-visible{
+        outline: 0;
+    }
+}
+section{
+    article{
+        background-color: rgba(29, 98, 202, 0.377);
+        border-radius: 10px;
+        display: flex;
+        margin: 20px 0;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        font-size: 25px;
+        div{
+            display: flex;
+            align-items: center;
+            img{
+                max-height: 50px;
+                width: 50px;
+            }
+        }
+        p{
+            display: inline;
+            padding: 10px;
+        }
+    }
+}
+.text-success{
+    color: green;
+}
+.text-danger{
+    color: red;
+}
+.symbol{
+    color: rgb(146, 146, 146);
+    font-weight: 600;
+    text-decoration: underline;
+}
